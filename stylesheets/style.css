@@ -1,0 +1,339 @@
+
+#nav{
+  width: 100%;
+  }
+
+  #navbar{
+    display:none;
+  }
+
+  #menu{
+    margin: 0 10px 0 10px;
+    padding: 0px 10px;
+    display: contents;
+  }
+
+  a.a{
+    height: 20px;
+    padding-top: 10px;
+  }
+
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #245E3C;
+    padding-bottom: -10px;
+    margin-bottom: -10;
+    height: 40px;
+
+  }
+
+  ul.b{
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+    padding-right: 70px;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+  }
+
+  li a:hover {
+    background-color: #54DE8E;
+  }
+
+  li.b{
+    padding-right:100px;
+  }
+
+  .register-form{
+    background-color: #245E3C;
+    color: black;
+    width: 100px;
+    height:40px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #registerForm{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #loginForm{
+    display: none;
+    transition: 0.5s;
+  }
+
+
+  #content{
+    float: right;
+  }
+
+  #home{
+    float:left;
+    margin:20px 50px;
+  }
+
+  .submitRegister{
+    background-color: #54DE8E;
+    padding: 2px 6px 0px 6px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .submitLogin{
+    background-color: #54DE8E;
+    padding: 6px 6px 0px 16px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .registerButton{
+    background-color: #245E3C;
+    color: black;
+    width: 100px;
+    height:40px;
+    float: right;
+    margin-right: 210px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .register:hover {
+    background-color: #245E3C;
+  }
+
+  .active {
+    background-color: #54DE8E;
+    color: #2B2B2B;
+  }
+
+  .search{
+    background-color: #54DE8E;
+    text-align: left;
+    padding: 16px 120px 14px 10px;
+    text-decoration: none;
+    border: black;
+  }
+
+  .name{
+    display: left;
+    background-color: #B1BEC4;
+    text-align: left;
+    padding: 5px 80px 5px 10px;
+    text-decoration: none;
+    border: black;
+  }
+
+  .number{
+    display: left;
+    background-color: #B1BEC4;
+    text-align: left;
+    padding: 5px 80px 5px 10px;
+    text-decoration: none;
+    border: black;
+  }
+
+  .name:hover{
+    background:#54DE8E;
+  }
+
+  .email{
+    background-color: #B1BEC4;
+    text-align: left;
+    padding: 5px 80px 5px 10px;
+    margin-right:50px;
+    text-decoration: none;
+    border: black;
+  }
+
+  .email:hover{
+    background:#54DE8E;
+  }
+
+  p.a{
+    border: 3px;
+    border-radius: 250px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    padding: 0 15px 0 25px;
+    background-color: #54DE8E;
+    margin: 50px 0 50px -10px;
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  p.b{
+    border: 3px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: black;
+    background-color: #B1BEC4;
+    font-size: 15px;
+    margin: 50px 0 50px 0px;
+    padding: 20px 35px 20px 35px;
+    width: 50%;
+    display:flex;
+    justify-content:center;
+    position: relative;
+    text-align:center;
+  }
+
+  p.c{
+    border: 3px;
+    border-radius: 70px;
+    border-style: solid;
+    border-color: black;
+    width: 350px;
+    padding: 0 3% 0 2%;
+    background-color: #54DE8E;
+    margin: 5% 0 5% 2.5%;
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  #aboutSection{
+    float:left;
+    margin: 0px 30px;
+    width: 75%;
+  }
+
+  #aboutus{
+    width: 150%;
+  }
+
+  #about{
+    width: 75%;
+  }
+
+  #map{
+    float: left;
+    width: 50%;
+    margin: 50px 0 50px 50px;
+  }
+
+#form{
+  float: right;
+  margin: -30px 50px 0 50px;
+  width: 500px;
+  border-radius: 10%;
+  background-color: #c4c4c4;
+
+}
+
+form{
+  max-width:420px; margin:50px auto;
+}
+
+.contactForm{
+  float: right;
+  color:white;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 15px;
+  line-height: 22px;
+  background-color: #eeebeb;
+  border:2px solid black;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+.contactForm:hover{
+  background:#54DE8E;
+}
+
+[type="submit"]{
+  width: 50%;
+  background:#eeebeb;
+  border-radius:15px;
+  border-color: black;
+  color:#c4c4c4;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover{
+   background:#54DE8E;
+}
+
+.column:hover{
+  background:#245E3C;
+  width: 22.5%;
+  height: 325px;
+  transition: 0.5s;
+}
+
+.column:hover:after{
+  color: #54DE8E;
+  content: "Try Game";
+}
+
+footer{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  margin-top:50px;
+  background-color: #245E3C;
+  padding: 15px; 
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  position:bottom;
+}
+
+@media screen and (max-width: 525px){
+
+  body{
+
+      background-color: #5E5E5E;
+
+  }
+}
+
+body{
+  background-color:#2B2B2B;
+  margin:0;
+}
+
+.carousel{
+  align-items: center;
+  justify-content: center;
+  flex:center;
+  width: 80%;
+  bottom: 50%;
+  top: 100px;
+  background-color: #2B2B2B;
+}
+
+.carousel-inner{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+main{
+  width: 100%;
+}

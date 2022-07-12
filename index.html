@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheets\style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+    <div id="nav">
+        <ul class="a">
+          <div id="menu">
+            <li><a class="a"><img src="images/hamburger-icon.jpg" width="20px" height="20px"></a></li>
+          </div>
+          <div id="navbar"> 
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <input type="text" class="search" style="float:right;" placeholder="🔎 Search...">
+          </div>
+        </ul>
+    </div>
+  </header>
+
+  <main>
+    <div id="content">
+      <input type="button" id="submitRegister" class="register-form" value="Register">
+      <input type="button" id="submitLogin" class="register-form" value="Login">  
+      <div id="registerForm">  
+          <form action="#" name="form">
+            <ul class="b">
+              <li>Name: </li>
+              <li><input type="text" name="name" id="name" class="name" style="float:left;" placeholder="Enter a username "> </li><br>
+              <br><li>Surname: </li>
+              <li><input type="text" name="surname" id="surname" class="name" style="float:left;" placeholder="Enter a password "> </li><br>
+              <br><li>Email: </li>
+              <li><input type="email" name="email" id="email" class="email" style="float:right;" placeholder="Enter your email "> </li><br>
+              <br><li>Phone Number: </li>
+              <li class="b"><input type="text" name="phoneNumber" id="number" class="number" style="float:left;" placeholder="Enter a phone number "> </li><br>
+              <li><button type="button" class="registerButton">Register</button></li><br>
+            </ul>
+          </form>
+        </div>
+        <div id="loginForm"> 
+          <form action="#" name="form">
+            <ul class="b">
+              <li>Name: </li>
+              <li><input type="text" name="name" id="name" class="name" style="float:left;" placeholder="Enter a username "> </li><br>
+              <br><li>Surname: </li>
+              <li><input type="text" name="surname" id="surname" class="name" style="float:left;" placeholder="Enter a password "> </li><br>
+              <br><li>Email: </li>
+              <li><input type="email" name="email" id="email" class="email" style="float:right;" placeholder="Enter your email "> </li><br>
+              <li><input type="button" onclick="alertLogin()" class="registerButton" value="Login"> </li><br>
+            </ul>
+          </form> 
+      </div>
+    </div>
+
+    <div id="home" onload="ValidateandCalculate()">
+      <form>
+          <input name="name" type="text" class="contactForm" id="name" placeholder="Name" />
+          <input name="num1" type="text" class="contactForm" id="num1" placeholder="1st Number" />
+          <input name="num2" type="text" class="contactForm" id="num2" placeholder="2nd Number" />
+          <input onclick="ValidateandCalculate(document.getElementById('name').value,document.getElementById('num1').value,document.getElementById('num2').value)" type="submit" value="SUBMIT"/>
+        </form>
+  </div>
+
+  </main>
+
+  <footer onload="ShowDateandTime()"><div id="footer"></div> Kyran Gatt © </footer>
+</body>
+</html>

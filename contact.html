@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheets\reset.css">
+  <link rel="stylesheet" href="stylesheets\style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <ul class="a">
+              <div id="menu">
+                <li><a class="a"><img src="images/hamburger-icon.jpg" width="20px" height="20px"></a></li>
+              </div>
+              <div id="navbar"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <input type="text" class="search" style="float:right;" placeholder="🔎 Search...">
+              </div>
+            </ul>
+        </div>
+      </header>
+
+    <div id="about">
+        <p class="c">Contact Us</p>
+    </div>
+
+    <div id="map">
+        <b>Where to find us:</b> <br><br>
+        <img src="images/map.png" width="350px" height="300px" style="border-radius:10%;">
+    </div>
+
+    <div id="form">
+        <form action="mailto:kyran.gatt.d102262@mcast.edu.mt" onsubmit="return validateForm();" name="contactForm">
+            <input name="name" type="text" class="contactForm" placeholder="Name" />
+            <input name="surname" type="text" class="contactForm" placeholder="Surname" />
+            <input name="email" type="text" class="contactForm" placeholder="Email" />
+            <input name="phoneNumber" type="text" class="contactForm" placeholder="Phone number" />
+            <input name="comment" type="text" class="contactForm" placeholder="Comment" />
+            <input type="submit" value="SUBMIT"/>
+          </form>
+    </div>
+
+    <footer> Kyran Gatt © </footer>
+    
+</body>
+</html>
